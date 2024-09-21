@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profileUplode</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div class="w-full h-screen bg-zinc-900 text-white p-10">
+    <h1 class="text-3xl m-2 mb-10 tracking-tight font-semibold">Uplode Photo.</h1>
+    <form action="/uplode" method="post" enctype="multipart/form-data">
+        
+        <input type="file" name="image" >
+    <input type="submit" class="px-5 py-2 text-sm bg-pink-600 hover:bg-pink-700 hover:cursor-pointer rounded-lg m-2 border border-zinc-700 outline-none">
+        
+    </form>
+  </div>
+</body>
+</html>

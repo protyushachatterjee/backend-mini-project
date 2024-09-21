@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div class="w-full h-screen bg-zinc-900 text-white p-10">
+    <a href="/" class="text-sm text-blue-700 m-2">register</a>
+    <h1 class="text-3xl text-left m-3 font-semibold tracking-tight">Login Accout</h1>
+    <form action="/login" method="post" class="post">
+        <input class="px-7 py-3 text-sm bg-transparent rounded-lg m-2 border border-zinc-700 outline-none" type="text" name="username" placeholder="username">
+        <input class="px-7 py-3 text-sm bg-transparent rounded-lg m-2 border border-zinc-700 outline-none" type="email" name="email" placeholder="email">
+        <input class="px-7 py-3 text-sm bg-transparent rounded-lg m-2 border border-zinc-700 outline-none" type="password" name="password" placeholder="password">
+        <input class="px-5 py-2 text-sm bg-blue-700 hover:bg-blue-800 hover:cursor-pointer rounded-lg m-2 border border-zinc-700 outline-none" type="submit" value="Login">
+    </form>
+  </div>
+</body>
+</html>
